@@ -8,7 +8,7 @@ Go implementation of the self-deletion of an running executable from disk.
 ```go
 package main
 
-import "github.com/secur30nly/go-self-delete"
+import "github.com/Onyz107/go-self-delete"
 
 func main() {
 	// some code ...

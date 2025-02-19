@@ -1,12 +1,3 @@
-/*
-    License: MIT Licence
-
-    References:
-        - https://github.com/LloydLabs/delete-self-poc
-        - https://twitter.com/jonasLyk/status/1350401461985955840
-*/
-
-
 package selfdelete
 
 import (
@@ -136,10 +127,6 @@ func SelfDeleteExe() error {
 	}
 
 	windows.CloseHandle(hCurrent)
-
-	fmt.Println("Self deletion is successful. Program still running, hit key to continue")
-	str := ""
-	fmt.Scanln(&str)
 
 	return nil
 }

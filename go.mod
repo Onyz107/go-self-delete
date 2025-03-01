@@ -1,4 +1,4 @@
-module github.com/secur30nly/go-self-delete
+module github.com/Onyz107/go-self-delete
 
 go 1.23.6
 
